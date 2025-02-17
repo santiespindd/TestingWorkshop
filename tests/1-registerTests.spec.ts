@@ -12,7 +12,7 @@ test.describe('User Registration', () => {
         await expect(page.getByText('New User Signup!')).toBeVisible();
     });
     
-    test('Test Case 1: Register User', async ({page}) => {
+    test('Test Case: Register User', async ({page}) => {
        
 
 
@@ -31,7 +31,7 @@ test.describe('User Registration', () => {
 
     });
 
-    test('Test Case 5: Register User with existing email', async ({page}) => {
+    test('Test Case: Register User with existing email', async ({page}) => {
 
         await registerPage.fillSignupForm(userData.userName, userData.userEmail);
         await expect(page.getByText('Email Address already exist!')).toBeVisible();
