@@ -13,7 +13,7 @@ test.describe("Login", () => {
         await expect(page.getByText("Login to your account")).toBeVisible();
     });
 
-    test("Test Case: Login User with correct email and password", async ({
+    test("Test Case 3: Login User with correct email and password", async ({
         page,
     }) => {
         await test.step("Verify Valid Login", async () => {
@@ -24,7 +24,7 @@ test.describe("Login", () => {
         });
     });
 
-    test("Test Case: Login User with incorrect email and password", async ({
+    test("Test Case 4: Login User with incorrect email and password", async ({
         page,
     }) => {
         await test.step("Verify invalid Login", async () => {
@@ -35,7 +35,7 @@ test.describe("Login", () => {
         });
     });
 
-    test('Test Case: Logout User', async ({ page }) => {
+    test('Test Case 5: Logout User', async ({ page }) => {
 
         await test.step('Login with valid user', async () => {
             loginPage.login(userData.userEmail, userData.password);
@@ -51,7 +51,7 @@ test.describe("Login", () => {
         
     })
     
-    test('Test Case: Delete account', async ({ page }) => {
+    test('Test Case 6: Delete account', async ({ page }) => {
 
         await test.step('Login with valid user', async () => {
             loginPage.login(userData.userEmail, userData.password);
