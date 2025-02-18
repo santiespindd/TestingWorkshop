@@ -36,12 +36,6 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    {
-      name: 'Google Chrome',
-      use: {
-        browserName: 'chromium',
-        channel: 'chrome',
-      },
-    },
+    
   ],
 });
