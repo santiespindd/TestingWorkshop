@@ -32,9 +32,12 @@ export default defineConfig({
     video: 'on', 
     screenshot: 'on',
     trace: 'on-first-retry',
+    browserName: 'chromium',  //
   },
 
   /* Configure projects for major browsers */
+  
+
   projects: [
     {
       name: 'chromium',
