@@ -4,7 +4,7 @@ export const userData = {
     "lastName": "Doe",
     "userName": "Johndoe23",
     "password": "test1234",
-    "userEmail": "testsantineo_197@gmail.com",
+    "userEmail": "testsantineo_200@gmail.com",
     "company": "TechCorp",
     "address": "123 Main Street",
     "address2": "Apt 4B",
